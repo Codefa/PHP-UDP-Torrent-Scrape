@@ -120,7 +120,7 @@
 			$timeout = 2;
 			
 			$scraper = new udptscraper($timeout);
-			$ret = $scraper->scrape('udp://tracker.openbittorrent.com:80',array('D6525C8CB07CBC6CE001A97541DAD408D4F1FFF0'));
+			$ret = $scraper->scrape('udp://tracker.coppersurfer.tk:6969/announce',array('A2E7EA58534C1769D50EAD2DA2778836E407084C'));
 			
 			//print_r($ret);  //for debug
 			foreach ($ret as $key => $value) {

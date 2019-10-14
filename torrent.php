@@ -122,7 +122,7 @@
 			$scraper = new udptscraper($timeout);
 			$ret = $scraper->scrape('udp://tracker.coppersurfer.tk:6969/announce',array('A2E7EA58534C1769D50EAD2DA2778836E407084C'));
 			
-			//print_r($ret);  //for debug
+			print_r($ret);  //for debug
 			foreach ($ret as $key => $value) {
     
     echo 'INFO HASH :' .$value['infohash'].'<br />';
